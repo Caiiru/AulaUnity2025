@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/packs/Alessandro/Scenes/A_Fase2.unity
     guid: 931b44f21a1ae8c48be2d4e4a3c4b1d8
+  - enabled: 1
+    path: Assets/packs/Augusto/Scene/Fase 1 - Au.unity
+    guid: 1c2ddc5c4b0e898c78e3962244a0cd0b
+  - enabled: 1
+    path: Assets/packs/Augusto/Scene/Fase 2 - Au.unity
+    guid: b0225f1c917139bf19ae4927fb6e6fb4
+  - enabled: 1
+    path: Assets/packs/Augusto/Scene/Hub.unity
+    guid: 27480972401c638a5beedc2ef1222ad1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
