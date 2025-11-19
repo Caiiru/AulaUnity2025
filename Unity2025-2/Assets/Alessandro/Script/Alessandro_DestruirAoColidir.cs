@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ResetarPersonagemAoColidir : MonoBehaviour
+public class Alessandro_ResetarPersonagemAoColidir : MonoBehaviour
 {
     [Header("Prefab da Part�cula")]
     public GameObject particulaPrefab; // arraste o prefab da part�cula aqui

@@ -1,18 +1,18 @@
 using UnityEngine;
 
-public class ColetarCristal : MonoBehaviour
+public class Alessandro_ColetarCristal : MonoBehaviour
 {
     [Header("Portal a ser liberado")]
     public GameObject portal; // arraste o portal aqui
 
-    [Header("Prefab da Partícula (opcional)")]
-    public GameObject particulaPrefab; // partículas ao coletar
+    [Header("Prefab da Partï¿½cula (opcional)")]
+    public GameObject particulaPrefab; // partï¿½culas ao coletar
 
     void Start()
     {
         if (portal != null)
         {
-            portal.SetActive(false); // portal começa bloqueado
+            portal.SetActive(false); // portal comeï¿½a bloqueado
         }
     }
 
@@ -20,7 +20,7 @@ public class ColetarCristal : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // cria partícula de coleta
+            // cria partï¿½cula de coleta
             if (particulaPrefab != null)
             {
                 Instantiate(particulaPrefab, transform.position, Quaternion.identity);
@@ -32,7 +32,7 @@ public class ColetarCristal : MonoBehaviour
                 portal.SetActive(true);
             }
 
-            // destrói o cristal
+            // destrï¿½i o cristal
             Destroy(gameObject);
         }
     }

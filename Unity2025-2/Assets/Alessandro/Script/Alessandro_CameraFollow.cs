@@ -1,7 +1,7 @@
 using Unity.Mathematics;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class Alessandro_CameraFollow : MonoBehaviour
 {
     public GameObject followTarget;
 

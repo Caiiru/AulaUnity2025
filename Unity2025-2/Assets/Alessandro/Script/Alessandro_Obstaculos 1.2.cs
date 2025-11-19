@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class MoveObstaculo2 : MonoBehaviour
+public class Alessandro_MoveObstaculo2 : MonoBehaviour
 {
     public float distancia = 4.5f;   // amplitude do movimento
     public float velocidade = 2f;  // velocidade da oscilação

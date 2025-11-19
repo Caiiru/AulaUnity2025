@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Gelo : MonoBehaviour
+public class Alessandro_Gelo : MonoBehaviour
 {
     public float velocidadeDerretimento = 0.2f;
     public float escalaMinima = 0.1f;

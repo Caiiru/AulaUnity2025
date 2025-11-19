@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // necessário para trocar de cena
+using UnityEngine.SceneManagement; // necessï¿½rio para trocar de cena
 
-public class PortalTrocaCena : MonoBehaviour
+public class Alessandro_PortalTrocaCena : MonoBehaviour
 {
     [Header("Nome da Cena de Destino")]
-    public string nomeCena = "Fase2"; // nome da cena que será carregada
+    public string nomeCena = "Fase2"; // nome da cena que serï¿½ carregada
 
     private void OnCollisionEnter(Collision collision)
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Movimento : MonoBehaviour
+public class Alessandro_Movimento : MonoBehaviour
 {
     public float forcaMovimento = 10f;
     public float forcaPulo = 3f;
