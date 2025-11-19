@@ -32,6 +32,8 @@ TagManager:
   - EndBuff
   - SpeedCoin
   - JumpCoin
+  - Plataforma
+  - Agua
   layers:
   - Default
   - TransparentFX
