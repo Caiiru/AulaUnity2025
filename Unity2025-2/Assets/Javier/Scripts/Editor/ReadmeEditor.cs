@@ -6,7 +6,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-[CustomEditor(typeof(Javier_Readme))]
+[CustomEditor(typeof(JoaoPaulo_Readme))]
 [InitializeOnLoad]
 public class ReadmeEditor : Editor
 {
@@ -74,7 +74,7 @@ public class ReadmeEditor : Editor
         method.Invoke(null, new object[] { Path.Combine(Application.dataPath, "TutorialInfo/Layout.wlt"), false });
     }
 
-    static Javier_Readme SelectReadme()
+    static JoaoPaulo_Readme SelectReadme()
     {
         var ids = AssetDatabase.FindAssets("Readme t:Readme");
         if (ids.Length == 1)
@@ -83,7 +83,7 @@ public class ReadmeEditor : Editor
 
             Selection.objects = new UnityEngine.Object[] { readmeObject };
 
-            return (Javier_Readme)readmeObject;
+            return (JoaoPaulo_Readme)readmeObject;
         }
         else
         {
@@ -94,7 +94,7 @@ public class ReadmeEditor : Editor
 
     protected override void OnHeaderGUI()
     {
-        var readme = (Javier_Readme)target;
+        var readme = (JoaoPaulo_Readme)target;
         Init();
 
         var iconWidth = Mathf.Min(EditorGUIUtility.currentViewWidth / 3f - 20f, 128f);
@@ -122,7 +122,7 @@ public class ReadmeEditor : Editor
 
     public override void OnInspectorGUI()
     {
-        var readme = (Javier_Readme)target;
+        var readme = (JoaoPaulo_Readme)target;
         Init();
 
         foreach (var section in readme.sections)
