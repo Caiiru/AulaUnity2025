@@ -12,7 +12,7 @@ public class Andressa_ReturnToStart : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(wallTag))
         {
-            MovingWall wallScript = collision.gameObject.GetComponent<MovingWall>();
+            Andressa_MovingWall wallScript = collision.gameObject.GetComponent<Andressa_MovingWall>();
 
             if (wallScript != null)
             {
