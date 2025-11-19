@@ -8,6 +8,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Andressa_Cena1.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Alessandro_Fase1.unity
+    guid: 4cbc6863a8599cd4e8a62c7d22e7a9ae
+  - enabled: 1
+    path: Assets/Scenes/Alessandro_Fase2.unity
+    guid: 931b44f21a1ae8c48be2d4e4a3c4b1d8
+  - enabled: 1
+    path: Assets/Scenes/Alessandro_SampleScene.unity
+    guid: cfdb17b1c2b0e3f4c9a636d5c11a8d89
+  - enabled: 1
+    path: Assets/Scenes/Cena_buraco_negro.unity
+    guid: 23e3b38eec78ed74dbaecb2725f14231
+  - enabled: 1
+    path: Assets/Scenes/Cena_Tempestade.unity
+    guid: ae238299c3f9a414682afd3b2a65fc0d
+  - enabled: 1
+    path: Assets/Scenes/Douglas_Lobby.unity
+    guid: cb9e22833544e984bbe383b263cb6b5f
+  - enabled: 1
+    path: Assets/Scenes/Fernanda_Cena_Buraco_Negro.unity
+    guid: dfa93e9e832a46c408b28773248dafbc
+  - enabled: 1
+    path: Assets/Scenes/Fernanda_Cena_Tempestade.unity
+    guid: 419ebfe1b4318cb47a504ee58cd2a2de
+  - enabled: 1
+    path: Assets/Scenes/Fernanda_Loby.unity
+    guid: 3205c2912c10b98439fc59892d1688ba
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Alessandro_Movimento : MonoBehaviour
 {
@@ -22,15 +23,15 @@ public class Alessandro_Movimento : MonoBehaviour
     {
         // Movimento horizontal
         Vector3 direcao = Vector3.zero;
-        if (Input.GetKey(KeyCode.A)) direcao += Vector3.forward;
-        if (Input.GetKey(KeyCode.D)) direcao += Vector3.back;
-        if (Input.GetKey(KeyCode.S)) direcao += Vector3.left;
-        if (Input.GetKey(KeyCode.W)) direcao += Vector3.right;
+        if (Keyboard.current.aKey.isPressed) direcao += Vector3.forward;
+        if (Keyboard.current.dKey.isPressed) direcao += Vector3.back;
+        if (Keyboard.current.sKey.isPressed) direcao += Vector3.left;
+        if (Keyboard.current.wKey.isPressed) direcao += Vector3.right;
 
         rb.AddForce(direcao.normalized * forcaMovimento, ForceMode.Force);
 
         // Pulo
-        if (Input.GetKeyDown(KeyCode.Space) && estaNoChao)
+        if (Keyboard.current.spaceKey.isPressed && estaNoChao)
         {
             rb.AddForce(Vector3.up * forcaPulo, ForceMode.Impulse);
             estaNoChao = false; // evita múltiplos pulos
