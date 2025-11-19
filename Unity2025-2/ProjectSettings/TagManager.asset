@@ -17,6 +17,21 @@ TagManager:
   - PortaA
   - PortaB
   - Barreira
+  - Parede
+  - ColisaoVento
+  - Spike
+  - End
+  - StartTrigger
+  - EndTrigger
+  - ground
+  - ChangeFloor2
+  - ChangeFloor
+  - Acido
+  - NextPhase
+  - RestorePlatform
+  - EndBuff
+  - SpeedCoin
+  - JumpCoin
   layers:
   - Default
   - TransparentFX
