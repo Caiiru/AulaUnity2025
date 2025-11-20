@@ -34,6 +34,9 @@ TagManager:
   - JumpCoin
   - Plataforma
   - Agua
+  - Obstacle
+  - finish1
+  - Destroyable
   layers:
   - Default
   - TransparentFX
@@ -41,7 +44,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Floor
   - 
   - 
   - 
